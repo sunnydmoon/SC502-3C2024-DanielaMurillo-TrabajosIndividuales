@@ -9,7 +9,6 @@ body {
     background-color: #f3f3f3;
 }
 
-/* --- Barra de navegación --- */
 .navbar {
     background-color: #2d2d2d;
     padding: 15px 0;
@@ -32,10 +31,9 @@ body {
 }
 
 .navbar a:hover {
-    color: #4CAF50;
+    color: #6c2a72;
 }
 
-/* --- Sección del doctor --- */
 .doctor-profile {
     background-color: white;
     width: 70%;
@@ -47,7 +45,7 @@ body {
 }
 
 .doctor-name {
-    color: #2e8b57;
+    color: #702770;
     font-size: 1.8em;
     margin-bottom: 5px;
 }
@@ -87,7 +85,7 @@ body {
 }
 
 .card {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 15px;
     padding: 20px;
     width: 250px;
@@ -110,5 +108,3 @@ body {
     display: block;
     color: #777;
 }
-
-  }
