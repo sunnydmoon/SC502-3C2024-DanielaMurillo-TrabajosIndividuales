@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+/* --- Barra de navegación --- */
+.navbar {
+    background-color: #2d2d2d;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #4CAF50;
+}
+
+/* --- Sección del doctor --- */
+.doctor-profile {
+    background-color: white;
+    width: 70%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.doctor-name {
+    color: #2e8b57;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+.specialty {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.description {
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.btn-cita {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-cita:hover {
+    background-color: #0056b3;
+}
+
+/* --- Sección de testimonios --- */
+.testimonios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.card p {
+    font-style: italic;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.card small {
+    display: block;
+    color: #777;
+}
+
+  }
